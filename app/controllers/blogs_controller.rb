@@ -4,7 +4,10 @@ class BlogsController < ApplicationController
     end
 
     def new
+        @blog = Blogpost.new
     end
+
+    def 
 
     def create
         @blog = Blogpost.new(blog_params)
